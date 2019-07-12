@@ -20,9 +20,9 @@
 
 <script>
 
-var ace = require('./BraceWithBugFix');
+let ace = require('./BraceWithBugFix');
 
-module.exports = {
+export default {
     render: function (h) {
         var height = this.height ? this.px(this.height) : '100%'
         var width = this.width ? this.px(this.width) : '100%'
